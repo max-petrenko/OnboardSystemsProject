@@ -80,12 +80,27 @@
 
 Конролери, які пропонуються виробником до встановлення на цю модель та доступні у нього до придбання, підтримують ArduPilot та MissionPlanner зокрема, що підтвердує ось це відео (на ньому демонструється політ іншої рами, однак з аналогічною електронікою)
 
-![ArduPilot integration](http://img.youtube.com/vi/C62T40MxATA/0.jpg)](http://www.youtube.com/watch?v=C62T40MxATA&t=26s)
+![ArduPilot integration](http://img.youtube.com/vi/C62T40MxATA/0.jpg)(http://www.youtube.com/watch?v=C62T40MxATA&t=26s)
 
 Також, відсік під контролер є достатньо великим, аби умістити в себе будь-яку комерційно доступну систему автопілоту у разі потреби
 
 ![FCS bay](https://www.uavmodel.com/cdn/shop/files/8-1.jpg)
 
+### Ескіз, 3D-модель
+
+Ресурси виробника та згаданого постачальника надають [велику кількість детальних зображень та технічних малюнків](https://www.uavmodel.com/products/vtol-drone-makeflyeasy-pioneer-3200mm-fixed-wing-uav-drone-with-vtol-capabilities), як-от 
+
+#### Загальний ескіз корпусу
+![_](https://www.uavmodel.com/cdn/shop/files/2-1.jpg)
+
+
+#### Схема підключення електронних компонентів
+![](https://cdn.shopify.com/s/files/1/0504/9014/6970/files/425d725a3312020bf83e0f64073a76fd_b7a676bc-1602-42db-8def-a00aecc9be32.jpg)
+
+
+
+
+3D-модель я вирішив не виконувати, оскільки рама є готовим, комерційно успішним виробом з відомими характеристиками, і робити рзрахунки міцності чи аеродинаіки для неї є дещо надлишковим. Також, виробник [виклав у відкритий доступ](https://github.com/makeflyeasy/MFE_ArduPlane/tree/main/Pioneer/%E9%A3%9E%E6%9C%BA%E5%9B%BE%E7%BA%B8Aircraft%20drawings) файли .step з частинами моделей своїх продуктів, що, за потреби значно пришвидшить виготовлення власної моделі.
 
 ### Кошторис
 
@@ -94,4 +109,6 @@
 ![Pioneer quote](https://www.uavmodel.com/cdn/shop/files/1_1_e980c1d1-4a09-47f8-ba43-fb9b190d3130.jpg)
 
 Я в розрахунках відштовхуюся від 2-го варіанту
+
+
 
