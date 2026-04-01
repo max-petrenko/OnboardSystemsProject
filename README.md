@@ -69,5 +69,9 @@
 
 Він має схему 4+1 (pusher-пропелер ззаду), і це дозволяє йому поєднувати краще з двох світів VTOL та fixed-wing.
 
-На сайті постачальника uavmodel.com [зазначені](https://www.uavmodel.com/products/vtol-drone-makeflyeasy-pioneer-3200mm-fixed-wing-uav-drone-with-vtol-capabilities?variant=47007486902426#:~:text=Payload%205KG%2C%20flight%20speed%2022.5%20m/s%2C%20takeoff%20weight%2024.6%20kg%2C%20flight%20time%20176%20minutes%2C%20range%20242%20kilometers.) такі характеристики автономності за ваги кор. навантаження 5 кг: "Payload 5KG, flight speed 22.5 m/s, takeoff weight 24.6 kg, flight time 176 minutes, range 242 kilometers." - що, навіть після множення цих цифр на 0.7 для корекції звичної всім китайської любові до "фантазії", дозволяє нам вкластится в зазначені вимоги по часу польоту.  
+На сайті постачальника uavmodel.com [зазначені](https://www.uavmodel.com/products/vtol-drone-makeflyeasy-pioneer-3200mm-fixed-wing-uav-drone-with-vtol-capabilities?variant=47007486902426#:~:text=Payload%205KG%2C%20flight%20speed%2022.5%20m/s%2C%20takeoff%20weight%2024.6%20kg%2C%20flight%20time%20176%20minutes%2C%20range%20242%20kilometers.) такі характеристики автономності за ваги кор. навантаження 5 кг: 
+
+>"Payload 5KG, flight speed 22.5 m/s, takeoff weight 24.6 kg, flight time 176 minutes, range 242 kilometers."
+
+ що, навіть після множення цих цифр на 0.7 для корекції звичної всім китайської любові до "фантазії", дозволяє нам вкластится в зазначені вимоги по часу польоту.  
 
