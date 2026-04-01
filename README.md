@@ -172,3 +172,26 @@
 
 ## Загальний висновок по завданню
 Незважаючи на вибуховий ріст індустрії дронів, навіть серед продуктів, що вирішують розповсюджені та затребувані задачі, як-от патрулювання маршрутів, можна знайти комерційні можливості за рахунок зайняття мікро-ніш та/чи вдалого підбору компонентів дешевше, аніж у конкурентів (чому сприяє загальне тяжіння до стандартизації інтерфейсів взаємодії між компонентами, та орієнтація на open-source програмні продукти як-от ArduPilot).  
+
+## Список використаних джерел
+
+1.  Wingtra, “WingtraOne Technical Specifications.” [https://wingtra.com][1]
+2. Orbital Africa, “Top 10 LiDAR Mapping Drones.” [https://orbital.co.ke][2]
+3. DJI, “Matrice Series Documentation.” [https://www.dji.com][3]
+4. DJI Enterprise, “Matrice 30 Specifications.” [https://enterprise.dji.com][4]
+5. Quantum-Systems, “Vector UAV.” [https://quantum-systems.com][5]
+6. Measur, “Trinity F90+.” [https://measur.ca][6]
+7. MakeFlyEasy, “Pioneer UAV.” [https://en.makeflyeasy.com][7]
+8. UAVModel, “VTOL Drone Components & Kits.” [https://www.uavmodel.com][8]
+9. YouTube, “UAV / ArduPilot Demonstrations.” [https://www.youtube.com][9]
+10. ArduPilot, “Rangefinder Setup Documentation.” [https://ardupilot.org][10]
+11. GitHub, “MakeFlyEasy Pioneer Files.” [https://github.com][11]
+12. GitHub User Content, “Image Assets.” [https://github.com/user-attachments][12]
+13. Shopify CDN, “Product Media Assets.” [https://cdn.shopify.com][13]
+14. Dron Shop Ukraine, “SIYI ZT6 Camera.” [https://dron-shop.com.ua][14]
+15. Quadro Ukraine, “Here3 RTK GNSS.” [https://store.quadro.ua][15]
+16. Rozetka, “LTE Module.” [https://rozetka.com.ua]
+17. Modelistam, “Tattu Battery.” [https://modelistam.com.ua]
+18. Brain, “ISDT Charger.” [https://brain.com.ua]
+19. Mikronika, “Benewake TF03 LiDAR.” [https://mikronika.net]
+20. AviationFile, “Drone Beaufort Scale.” [https://www.aviationfile.com]
