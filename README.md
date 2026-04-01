@@ -80,7 +80,7 @@
 
 Конролери, які пропонуються виробником до встановлення на цю модель та доступні у нього до придбання, підтримують ArduPilot та MissionPlanner зокрема, що підтвердує ось це відео (на ньому демонструється політ іншої рами, однак з аналогічною електронікою)
 
-![ArduPilot integration](http://img.youtube.com/vi/C62T40MxATA/0.jpg)(http://www.youtube.com/watch?v=C62T40MxATA&t=26s)
+[![ArduPilot integration](http://img.youtube.com/vi/C62T40MxATA/0.jpg)](http://www.youtube.com/watch?v=C62T40MxATA&t=26s)
 
 Також, відсік під контролер є достатньо великим, аби умістити в себе будь-яку комерційно доступну систему автопілоту у разі потреби
 
@@ -98,17 +98,49 @@
 ![](https://cdn.shopify.com/s/files/1/0504/9014/6970/files/425d725a3312020bf83e0f64073a76fd_b7a676bc-1602-42db-8def-a00aecc9be32.jpg)
 
 
-
-
-3D-модель я вирішив не виконувати, оскільки рама є готовим, комерційно успішним виробом з відомими характеристиками, і робити рзрахунки міцності чи аеродинаіки для неї є дещо надлишковим. Також, виробник [виклав у відкритий доступ](https://github.com/makeflyeasy/MFE_ArduPlane/tree/main/Pioneer/%E9%A3%9E%E6%9C%BA%E5%9B%BE%E7%BA%B8Aircraft%20drawings) файли .step з частинами моделей своїх продуктів, що, за потреби значно пришвидшить виготовлення власної моделі.
+3D-модель я вирішив не виконувати, оскільки рама є готовим, комерційно успішним виробом з відомими характеристиками, і робити розрахунки міцності чи аеродинаіки для неї є дещо надлишковим. Також, виробник [виклав у відкритий доступ](https://github.com/makeflyeasy/MFE_ArduPlane/tree/main/Pioneer/%E9%A3%9E%E6%9C%BA%E5%9B%BE%E7%BA%B8Aircraft%20drawings) файли .step з частинами моделей своїх продуктів, що, за потреби значно пришвидшить виготовлення власної моделі.
 
 ### Кошторис
 
-Постачальник пропонує як голу раму за 1150 USD, так і раму з набором силових компонентів Plug-n-Play (мотори, пропелери, проводи, ESC) за 2750 USD
+Постачальник пропонує як голу раму за 1150 USD (KIT), так і раму з набором силових компонентів Plug-n-Play (мотори, пропелери, проводи, ESC) за 2750 USD (PNP)
 
 ![Pioneer quote](https://www.uavmodel.com/cdn/shop/files/1_1_e980c1d1-4a09-47f8-ba43-fb9b190d3130.jpg)
 
-Я в розрахунках відштовхуюся від 2-го варіанту
+Я в розрахунках відштовхуюся від 2-го варіанту (PNP) як бази.
+
+| Компонент                   | Приклад / постачальник                                                                                             | Ціна $     |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------- |
+| Набір: Польотний контролер, плата живлення PDB, датчик пов. швидкості, POS3 GPS| [PixPilot V6 Pro Kit][7]                                        | 835        |
+| Цифровий звʼязок + антени 30KM ([підвердження дальності][8])| [T900 Data Link (makeFlyEasy)][9]                                                  | 180        |
+| Тепловізійна камера         | [SIYI ZT6][10]                                                                                                     | 3300       |
+| RTK модуль (дрон)           | [Here3+ RTK GNSS (CubePilot)][11]                                                                                  | 400        |
+| GSM модем                   | [Quectel LTE module][12]                                                                                           | 90         |
+| Акумулятори                 | [Tattu 6S 22000mAh][13] ×2                                                                                         | 1500       |
+| Зарядний пристрій           | [ISDT charger][14]                                                                                                 | 200        |
+| Блок живлення               | DC PSU 24V                                                                                                         | 200        |
+| Лідар (~100 м), див. вниз   | [Benewake TF03][15]                                                                                                | 350        |
+| Кріплення лідару            | Anti-vibration mount (AliExpress)                                                                                  | +-100      |
+| Кабелі та конектори         | XT90                                                                                                               | +-50       |
+| Карта памʼяті x2            | Samsung / Sandisk SD 512GB                                                                                         | 90x2       |
+| **РАЗОМ (без PNP)**         |                                                                                                                    | **7385**   |
+| **РАЗОМ з PNP Kit ($2750)** |                                                                                                                    | **10,135** |
+| **Логістика, збірка, налаштування** |                                                                                                            | **5000**   |
+| **Непередбачувані витрати** |                                                                                                                    | **2500**   |
+| **ФІНАЛЬНА СУМА** |                                                                                                                              | **17,635** |
 
 
+[7]: https://www.uavmodel.com/products/mfe-pixpilot-v6-pro-aerial-measurement-flight-control-pixhawk-open-source-flight-control-vtol-uav?variant=45700486529178
+[8]: https://www.youtube.com/watch?v=37OQIFSeHYc
+[9]: https://www.uavmodel.com/products/makeflyeasy-t900-uav-long-range-data-transmission-cost-effective-aerial-survey-data-transmission-sbus-forwarding-wifi-forwarding
+[10]: https://dron-shop.com.ua/fpv/fpv-cameras/siyi-zt6
+[11]: https://store.quadro.ua/ru/gnss-sistema-z-rtk-rezhimom-cubepilot-here3-with-istand/
+[12]: https://rozetka.com.ua/ua/370589019/p370589019
+[13]: https://modelistam.com.ua/akkumulyator-tattu-222-22000mah-30c-lipo-p-46796
+[14]: https://brain.com.ua/ukr/Zaryadniy_pristriy_dlya_drona_iSDT_K4_AC_400W_DC_600Wx2_HP0015K4-p1119504.html 
+[15]: https://mikronika.net/product/benewake-lidar-tf03-180
 
+
+### Підсумок по SkyGear Hermes
+
+
+## Висновок по завданню SkyGear Hermes 
